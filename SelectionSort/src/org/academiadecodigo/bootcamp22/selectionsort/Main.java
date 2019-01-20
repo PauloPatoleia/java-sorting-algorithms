@@ -4,11 +4,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] array = {2, 1, 98, 43, 23, 54, 3, 6, -5, 1029};
+        int[] array = {20, 10, 50, 30, 40, 80, 70, 60};
 
         Selection.sort(array);
 
-        for (int i = 0; i < array.length - 1; i++) {
+        for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
         }
     }
